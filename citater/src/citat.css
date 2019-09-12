@@ -1,0 +1,24 @@
+.citat-list
+{
+    margin-bottom: 10%;
+}
+form button 
+{
+    margin: 2% 0;
+}
+.citat
+{
+    margin: 2% 0;
+    border: 1px solid black;
+    padding: 10px 0;
+    height: 150px;
+}
+.citat button
+{
+    margin-top: 1%;
+}
+.box
+{
+    margin: 25px 25px;
+    text-align: center;
+}
