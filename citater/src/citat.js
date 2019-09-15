@@ -15,7 +15,7 @@ const Citat = ({citats, deleteCitat}) => {
                         <div>Overskrift: { c.Overskrift }</div>
                         <div>Citattekst: { c.Citattekst }</div>
                         <div>Forfatter:  { c.Forfatter }</div>
-                        <button className="center waves-effect waves-light btn" onClick={() => {deleteCitat (c.id)}}><i class="material-icons right">delete_forever</i>Slet Citat</button>
+                        <button className="center waves-effect orange waves-light btn" onClick={() => {deleteCitat (c.id)}}><i class="material-icons right">delete_forever</i>Slet Citat</button>
                     </div>
                     
                 </div>

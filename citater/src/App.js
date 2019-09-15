@@ -47,8 +47,8 @@ class App extends Component {
   render() {
     return (
       <div className="App container">
-        <h1 className="center">Min citat side</h1>
-        <p className="center">Du skal bare tilføj dit Citat ;-)</p>
+        <h1 className="center orange-text darken-2">Min citat side</h1>
+        <p className="center ">Du skal bare tilføj dit Citat ;-)</p>
 
         <Citat deleteCitat={this.deleteCitat} citats={this.state.Citats} />
         <Addcitat addCitat={this.addCitat} />
