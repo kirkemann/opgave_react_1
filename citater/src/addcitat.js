@@ -35,7 +35,7 @@ class addcitat extends Component {
                             <label className="center black-text"htmlFor="forfatter"> Forfatter: </label>
                             <input className="center black-text"type="text" id="Forfatter" onChange={this.handleChanges}/>
 
-                            <button className="center waves-effect orange waves-light btn pulse"><i class="material-icons white-text right">add</i>Opret her</button>
+                            <button className="center waves-effect waves-light btn pulse"><i class="material-icons white-text">add</i>Opret her</button>
 
                         </form>
                     
